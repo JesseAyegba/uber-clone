@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, SafeAreaView, View, Image } from "react-native";
 import tw from "tailwind-react-native-classnames";
+import NavOptions from "../components/NavOptions";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           }}
         />
       </View>
+      <NavOptions />
     </SafeAreaView>
   );
 }
