@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, FlatList } from "react-native";
 import { Provider } from "react-redux";
 import Home from "./screens/Home";
 import { store } from "./store/reducers/store";
